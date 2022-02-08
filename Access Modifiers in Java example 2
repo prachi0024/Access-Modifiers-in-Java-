@@ -1,0 +1,18 @@
+class one{
+	private int id;
+	private String name;
+	public void show (int i , String n) {
+	id = i;
+	name = n;
+	System.out.println("Id= "+id+ "and name = " +name);
+}
+}
+public class Main extends one{
+
+	public static void main(String[] args) {
+		Main obj = new Main();
+		obj.show(123, "java");
+
+	}
+
+}
