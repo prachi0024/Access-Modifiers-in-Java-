@@ -1,0 +1,16 @@
+class One
+{
+	protected void Show()
+	{
+		System.out.println("I am of type private");
+	}
+}
+public class Main extends One{
+
+	public static void main(String[] args) {
+		Main obj = new Main();
+		obj.Show();
+
+	}
+
+}
